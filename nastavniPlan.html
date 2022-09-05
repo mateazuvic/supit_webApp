@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPIT - projektni zadatak</title>
+    <link rel="stylesheet" href="./node_modules/jquery-ui-dist/jquery-ui.css">
+    <script src="./node_modules/jquery-ui-dist/external/jquery/jquery.js"></script>
+    <script src="./node_modules/jquery-ui-dist/jquery-ui.js"></script>
+    <link rel="stylesheet" href="/nastavniPlan.css">
+    <script src="/nastavniPlan.js"></script>
+</head>
+
+<body>
+
+    <!-- izborna traka -->
+    <div id="izbTraka">
+        <div id="logo"><img src="./img/Algebra-logo.png" alt="logo"/></div>
+        <div id="poveznice">
+            <ul>
+                <li><img src="/img/home_or.png" alt=""> <a href="pocetna.html"> Početna</a></li>
+                <li><img src="/img/comments_or.png" alt=""> <a href="oNama.html"> O nama</a></li>
+                <li><img src="/img/information_or.png" alt=""> <a href="novosti.html"> Novosti</a></li>
+                <li><img src="/img/information_or.png" alt=""> <a href="nastavniPlan.html"> Nastavni plan</a></li>
+                <li><img src="/img/envelope_or.png" alt=""> <a href=""> Kontakt</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- naslov -->
+    <div class="naslov">
+        <p>
+            Nastavni plan <hr color="orange" width="750px" size="2px" style="box-shadow: 0px -.5px 1.5px .025px orange;">
+        </p>
+    </div>
+
+    <!-- input i tablica -->
+    <form  autocomplete="off" action="">
+    <div class="sadrzaj">
+        <label for="txtKolegij">
+        Naziv kolegija: <br> </label>
+
+        <input type="text" id="txtKolegij" name="kolegij" autofocus required placeholder="Započnite unos naziva kolegija..."/>
+
+        <table class="ispis">
+            <thead id="head">
+                    <th>Kolegij</th>
+                    <th>ECTS</th>
+                    <th>Sati</th>
+                    <th>P</th>
+                    <th>V</th>
+                    <th>Tip</th>
+            </thead>
+            <tbody></tbody>
+            <tfoot>
+                    <th>Ukupno</th>
+                    <th id="placeholder"></th>
+            </tfoot>
+        </table>
+    </div>
+    </form>
+    
+    
+    <!-- žuto podnozje -->
+    <div class="podnozje">
+        <img src="/img/zaiskri-bg.jpg" alt="">
+    </div>
+    <div class="tekst">
+        <p id="t1">
+            Budi izvrstan u onom što voliš 
+        </p>
+        <p id="t2">
+            Zaiskri
+        </p>
+    </div>

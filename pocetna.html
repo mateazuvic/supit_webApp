@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SUPIT - projektni zadatak</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/node_modules/jquery-ui-dist/jquery-ui.css">
+    <link rel="stylesheet" href="./pocetna.css">
+    <script src="/node_modules/jquery-ui-dist/external/jquery/jquery.js"></script>
+    <script src="/node_modules/jquery-ui-dist/jquery-ui.js"></script>
+    <script src="/pocetna.js"></script>
+    
+</head>
+<body>
+   <!-- izborna traka  -->
+    <div id="izbTraka">
+        <div id="logo"><img src="./img/Algebra-logo.png" alt="logo"/></div>
+        <div id="poveznice">
+            <ul>
+                <li><img src="/img/home_or.png" alt=""> <a href="pocetna.html"> Početna</a></li>
+                <li><img src="/img/comments_or.png" alt=""> <a href="oNama.html"> O nama</a></li>
+                <li><img src="/img/information_or.png" alt=""> <a href="novosti.html"> Novosti</a></li>
+                <li><img src="/img/information_or.png" alt=""> <a href="nastavniPlan.html"> Nastavni plan</a></li>
+                <li><img src="/img/envelope_or.png" alt=""> <a href="#" id="click"> Kontakt</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- sadrzaj: video i tekst s animacijom -->
+    <div id="sadrzaj">
+        <video playsinline autoplay loop id="video" src="/video/typingOnlaptop.mp4"></video>
+        
+    </div>
+    <div class="tipkanje" class=""> 
+        <p>Budi izvrstan u onome što voliš!</p>
+        <p>Zaiskri<span class="tocka">.</span></p>
+    </div>
+
+    <!-- KONTAKT FORMA (ne radi mi dijaloski okvir, tj ne zeli mi prihvatiti kod iz pocetna.js pa otkomentirajte kod ispod da vidite kontakt formu) -->
+
+     <!-- <form action="http://www.fulek.com/VUA/SUPIT/ContactUs" method="get">
+    <div class="obrazac">
+       <h2><img src="/img/envelope_bl.png" alt="">Kontaktirajte nas</h2>
+       <hr>
+       <table>
+           <tr>
+                <td><label for="txtIme">Puno ime:</label></td>
+           </tr>
+           <tr>
+                <td><input type="text" id="txtIme" name="name"/> </td>
+           </tr>
+           <tr>
+                <td><label for="email">E-mail:</label></td>
+            </tr>
+            <tr>
+                <td><input type="email" id="email" required name="email"/> </td>
+            </tr>
+            <tr>
+                <td><label for="importance">Važnost poruke:</label></td>
+            </tr>
+            <tr>
+                <td>
+                    <select id="importance" name="importance">
+                        <option value="visoka">Visoka</option>
+                        <option value="niska">Niska</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="txtPoruka">Vaša poruka:</label></td>
+            </tr>
+            <tr>
+                <td><textarea name="message" id="txtPoruka" cols="30" rows="10" required></textarea> </td>
+            </tr>
+            <tr>
+                <td><label for="check" id="ch">Primaj newsletter:</label><input type="checkbox" name="newsletter" id="check"></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" id="btnSubmit" value="Pošalji" /> 
+    
+                    <input type="reset" id="btnReset" value="Odustani" /> 
+                </td>
+            </tr>
+       </table>
+    </div>
+    </form>    -->
+         
+</body>
+</html>

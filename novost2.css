@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-stretch: condensed;
+    line-height: 2.9; 
+    margin-top: 100px;
+    margin-left: 0;
+    margin-right: 0;
+    position: fixed;
+}
+
+
+#izbTraka{
+    background-color: #111111;
+    color: #ffffff;
+    padding: 3px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#poveznice img{
+    width: 13px;
+    height: auto;  
+}
+
+#logo {
+    margin-left: 80px;
+    float: left;
+    width: 50px;
+    margin-right: 50px;
+    padding-top: 14px;
+}
+
+#logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+#poveznice {
+    padding-top: 8px;
+}
+
+#poveznice ul li,
+ #poveznice ul li a {
+    display: inline-block;
+}
+
+#poveznice ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: bold;
+   
+}
+
+.slika {
+    width:100%;   
+    margin-top: -20px;
+    animation: slideDown 1s ease;
+ 
+}
+
+.slika img{
+   display: block; 
+   width:100%; 
+   max-height: 280px;
+   margin: 0px;
+   object-fit: cover;
+   object-position: 0px 0px;
+   overflow: hidden;
+  
+}
+
+.naslov p {
+   font-size: 30px;
+   font-weight: bold;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 3px;
+}
+
+.naslov{
+    animation: slideUp 1s ease;
+}
+
+
+
+
+.tekst {
+    font-size: 20px;
+    line-height: 27px;
+    padding: 25px 325px 20px 250px;
+    font-weight: normal;
+    color: #121212;
+    margin-bottom: 0px;
+    
+}
+
+.podnozje {
+    width: 100%;
+    margin-top: 0px;
+    
+}
+
+.podnozje img {
+    width: 100%;
+    max-height: 280px;
+    object-fit: cover;
+    z-index: -1;
+    
+}
+
+
+@keyframes slideDown {
+    0% {
+		transform: translateY(-100px);
+	}
+	100% {
+		transform: translateY(0px);
+	}		
+}
+
+@keyframes slideUp{
+    0% {
+        transform: translateY(50px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
